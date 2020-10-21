@@ -41,7 +41,7 @@ INSTALLED_APPS = [
 ELASTIC_APM = {
     # Set required service name. Allowed characters:
     # a-z, A-Z, 0-9, -, _, and space
-    'SERVICE_NAME': os.environ['ELASTIC_APM_SERVICE_NAME'],
+    'SERVICE_NAME': 'Any-Service-Name',
 
     # Use if APM Server requires a token
     'SECRET_TOKEN': os.environ['ELASTIC_APM_SECRET_TOKEN'],
